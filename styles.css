@@ -298,4 +298,38 @@ background-color: rgb(243, 100, 100);
 /*Attention*/
 .attention__box{
   background-color: rgb(100 21 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 120px 220px;
+  border-radius: 5px;
+}
+
+.attention__header{
+  color: white;
+  font-weight: bolder;
+  font-size: 32px;
+  width: 70%;
+}
+
+.attention__btn--1{
+  background-color: rgb(245 101 101) ;
+  padding: 8px 32px;
+}
+.attention__btn--1:hover{
+  background-color: rgb(230, 60, 60) ;
+  cursor: no-drop;
+}
+
+
+
+.attention__btn--2{
+  border: 1px solid lightgray;
+  padding: 8px 32px;
+}
+
+.attention__btn--2:hover{
+  background-color: white;
+  color: rgb(100 21 255);
+  cursor: no-drop;
 }
