@@ -269,6 +269,33 @@ background-color: rgb(243, 100, 100);
   border-radius: 100px;
   padding: 8px;
   margin: 0 8px;
-  color:rgb(100 21 255)
+  color:rgb(100 21 255);
+  cursor: not-allowed;
 }
 
+/*QUESTIONS*/
+
+.questions__header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq__box{
+  background-color: rgb(226, 232, 240);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.fa-caret-down{
+  cursor: no-drop;
+}
+
+
+/*Attention*/
+.attention__box{
+  background-color: rgb(100 21 255);
+}
