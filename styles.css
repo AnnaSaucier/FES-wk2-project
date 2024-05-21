@@ -5,6 +5,10 @@
   font-family: Roboto;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style-type: none;
 }
@@ -321,8 +325,6 @@ background-color: rgb(243, 100, 100);
   cursor: no-drop;
 }
 
-
-
 .attention__btn--2{
   border: 1px solid lightgray;
   padding: 8px 32px;
@@ -332,4 +334,31 @@ background-color: rgb(243, 100, 100);
   background-color: white;
   color: rgb(100 21 255);
   cursor: no-drop;
+}
+
+/*FOOTER*/
+
+#footer{
+background-color: rgb(100 21 255);
+margin-top: 56px;
+}
+
+.footer__links{
+  display: flex;
+ justify-content: space-between;
+ color: white;
+}
+
+.footer__link{
+  color: white;
+  margin-bottom: 16px;
+}
+
+.link__column{
+  display: flex;
+  flex-direction: column;
+}
+
+.link__title{
+  margin-bottom: 32px;
 }
