@@ -212,6 +212,7 @@ button {
   padding-right: 16px;
 }
 
+
 /*Values*/
 
 .values__columns{
@@ -349,9 +350,19 @@ margin-top: 56px;
  color: white;
 }
 
-.footer__link{
+.footer__link, .footer__link--FAQ{
   color: white;
   margin-bottom: 16px;
+}
+
+
+.footer__link--FAQ:hover{
+  text-decoration: underline;
+}
+
+
+.footer__link:hover{
+  cursor: no-drop;
 }
 
 .link__column{
@@ -361,4 +372,42 @@ margin-top: 56px;
 
 .link__title{
   margin-bottom: 32px;
+}
+
+
+#footer__bottom{
+  background-color: rgb(100 21 255);
+}
+
+.footer__links{
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo{
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-youtube {
+  color: black;
+  background-color:white;
+  padding: 12px;
+  border-radius: 50px;
+  margin: 0 16px;
+}
+
+.fa-facebook-f{
+  padding: 12px 16px;
+}
+
+.footer__copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright{
+  color: white;
 }
