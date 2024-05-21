@@ -37,6 +37,7 @@ h3 {
   color: rgb(100 21 255);
 }
 
+
 .row {
   width: 100%;
   max-width: 1200px;
@@ -173,19 +174,19 @@ button {
 /*Steps*/
 
 .steps__wrapper,
-.quality__wrapper, .values__wrapper {
+.quality__wrapper, .values__wrapper, .testimonials__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .steps__header,
-.quality__header, .values__header {
+.quality__header, .values__header, .testimonials__header {
   width: 50%;
 }
 
 .steps__img,
-.quality__img {
+.quality__img, .testimonials__img {
   width: 80%;
   margin: 0 32px;
  
@@ -233,4 +234,14 @@ background-color: rgb(243, 100, 100);
 
 .pricing__header {
   text-align: center;
+}
+
+/*TESTIMONIALS*/
+
+.fa-star{
+  color: rgb(246 173 85)
+}
+ 
+.five__stars{
+  padding-bottom: 16px;
 }
