@@ -207,6 +207,14 @@ button {
   display: flex; 
 }
 
+.values__column{
+  padding: 0 16px 8px 0;
+}
+
+.values__img{
+  border: 2px solid red;
+}
+
 
 /*Pricing*/
 
