@@ -47,7 +47,7 @@ h3 {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px;
+  
 }
 
 .container{
@@ -538,6 +538,7 @@ margin-top: 56px;
 
 .link__title{
   margin-bottom: 32px;
+  text-decoration: underline;
 }
 
 
@@ -573,4 +574,111 @@ margin-top: 56px;
 
 .copyright{
   color: white;
+}
+
+/*responsive*/
+
+@media (max-width: 728px){
+  .landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav__links{
+    display:none;
+  }
+  .service{
+    width: calc(100%/2);
+  }
+  .quality__wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .quality__header{
+    text-align: center;
+    padding-bottom: 16px;
+  }
+  .steps__wrapper{
+    display: flex;flex-direction: column-reverse;
+  }
+  .section__title{
+    text-align: center;
+  }
+  .values__wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .values__header, .value__title{
+    text-align: center;
+  }
+  .values__columns{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .plan{
+    width: calc(100%/1)
+    margin: 4px 16px;
+  }
+  .testimonials__wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 550px){
+  .service{
+    width: calc(100%/1)
+  }
+  .link__column{
+    width: calc(100%/3);
+  } 
+  .link__title{
+    padding-top: 16px;
+  }
+  .footer__links--bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .attention__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px;
+    padding: 16px;
+  }
+  .attention__header{
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .questions__description{
+    text-align: center;
+  }
+  .plan{
+    width: calc(100%/1);
+    margin: 56px;
+  }
+  .landing__email{
+    display: none;
+  }
+  .service{
+    margin: 48px;
+    border: 1px solid lightgray;
+    border-radius: 24px;
+  }
+  .service__img{
+    display:none;
+  }
+  h2{
+    padding-top: 12px;
+  }
+  .steps__img{
+    padding-top: 16px;
+  }
+  .send__love{
+    display: none;
+  }
+  
 }
