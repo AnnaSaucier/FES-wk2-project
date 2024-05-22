@@ -187,8 +187,12 @@ button {
 
 /*Services*/
 
-.services__header {
+.services__wrapper{
   text-align: center;
+}
+
+.services__description{
+  padding-bottom: 48px;
 }
 
 .services {
@@ -207,10 +211,8 @@ button {
 }
 
 
-
 .service__img{
   
-  margin-right: 16px;
   text-align: center;
   height: 40px;
   width: 62px;
@@ -292,7 +294,7 @@ margin-right: 16px;
 /*Pricing*/
 
 .pricing__header {
-  text-align: center;
+ text-align: center;
 }
 
 
@@ -450,6 +452,7 @@ margin-top: 56px;
   color: white;
   font-weight: bold;
   font-size: 24px;
+  padding-left: 16px;
 }
 
 .fa-facebook-f, .fa-twitter, .fa-youtube {
