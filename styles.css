@@ -287,7 +287,6 @@ margin-right: 16px;
 
 .values__affordable, .fa-suitcase{
   border-radius: 50px;
-  
 }
 
 
@@ -295,6 +294,103 @@ margin-right: 16px;
 
 .pricing__header {
  text-align: center;
+}
+
+.plans{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-bus, .price-bus, .monthly-bus, .plan__target-bus, .plan__item-bus{
+  color: white;
+}
+
+.plan, .plan-bus{
+  border: 1px solid rgb(226, 232, 240);
+  border-radius: 12px;
+  width: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.plan-bus{
+ background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+ 
+}
+
+.title{
+  font-weight: bold;
+}
+
+hr{
+  color: rgb(226, 232, 240);
+}
+.price, .price-bus {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.plan__details, .plan__details-bus{
+  line-height: 2;
+  margin: 32px 0;
+  text-align: center;
+}
+
+.plan__item, .monthly{
+  color: gray;
+}
+
+.plan__target, .plan__target-bus{
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.plan__header, .plan__header-bus{
+  text-align: center;
+  line-height: 2;
+  margin:32px 0;
+}
+
+.price__btn, .price__btn-bus{
+  text-align: center;
+  margin: 32px 0;
+}
+
+.btn__bus{
+  color:rgb(100 21 255);
+  background-color: white;
+}
+
+.btn__bus:hover{
+  color: white;
+  background-color: rgb(100 21 255);
+}
+
+.green{
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.red{
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.blue{
+  background-color: none;
+
+
+}
+
+.red, .green, .btn__bus{
+  padding: 16px 72px;
+}
+
+.plan__top {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  padding: 4px
 }
 
 
@@ -412,11 +508,17 @@ margin-top: 56px;
   display: flex;
  justify-content: space-between;
  color: white;
+ display: flex;
+  flex-wrap: wrap;
 }
 
 .footer__link, .footer__link--FAQ{
   color: white;
   margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100%/5)
+  align-items: center;
 }
 
 
@@ -443,10 +545,6 @@ margin-top: 56px;
   background-color: rgb(100 21 255);
 }
 
-.footer__links{
-  display: flex;
-  align-items: center;
-}
 
 .footer__logo{
   color: white;
