@@ -6,6 +6,7 @@
     <title>wk2.FinalProject</title>
     <link rel="stylesheet" href="./styles.css" />
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
     </style>
@@ -24,11 +25,29 @@
         </div>
           <ul class="nav__links">
             <li ><a href="" class="nav__link">About</a></li>
+            <li ><a href="" class="nav__link">Blog</a></li>
             <li ><a href="#pricing" class="nav__link">Pricing</a></li>
             <li ><a href="" class="nav__link" >Contact Us</a></li>
             <li ><a href=""class="nav__link" >Login</a></li>
             <li class="nav__link--primary">Sign Up</li>
           </ul>
+          <button class="btn__menu" onclick="openMenu()"> 
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()"> 
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">About</a></li>
+              <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Blog</a></li>
+              <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Pricing</a></li>
+              <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Contact US</a></li>
+              <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Log In</a></li>
+              <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Sign Up</a></li>
+             
+            </ul>
+          </div>
         </div>
       </div>
     </section>
